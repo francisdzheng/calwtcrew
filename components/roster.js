@@ -7,7 +7,7 @@ export default class Roster extends Component {
     return (
       <div className="box">
         <header>
-          <h1>Roster Name</h1>
+          <h1>{this.props.rostername}</h1>
         </header>
         <div className="namelist">
           <div className="name">
