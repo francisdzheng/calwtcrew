@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans|Palanquin+Dark');
 .container {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+
+  @media screen and (max-width: 983px) {
+    width: 600px;
+  }
+
+  @media screen and (max-width: 600px) {
+    width: 400px;
+  }
+
   .header {
     font-size: 48px;
     font-family: 'PT Sans', sans-serif;
@@ -12,6 +24,10 @@
     margin: 0 auto;
     padding: 3px;
 
+    @media screen and (max-width: 983px) {
+      width: 600px;
+    }
+
     @media screen and (max-width: 760px) {
       width: 80%;
     }
@@ -23,11 +39,8 @@
   }
 
   .roster {
+    display: inline-block;
     @media screen and (max-width: 983px) {
-      display: inline-block;
-    }
-
-    @media screen and (max-width: 800px) {
       display: block;
     }
   }

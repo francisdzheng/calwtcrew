@@ -1,15 +1,16 @@
 import React from 'react';
 import Roster from '../components/Roster';
+import photo from '../assets/images/womensroster.jpg';
 
-import './rosters.scss';
+import '../css/rosters.scss';
 
 const RosterPage = () => (
   <div className="container">
-    <div className="header">
+    <div className="page__header">
       2015-2016 Varsity & Novice Women
     </div>
     <div className="image">
-      <img alt="womenphoto" src="/images/womensroster.jpg" />
+      <img alt="" src={photo} />
     </div>
     <div className="roster">
       <Roster
