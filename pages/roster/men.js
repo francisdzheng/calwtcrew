@@ -1,8 +1,8 @@
 import React from 'react';
-import Roster from '../components/Roster';
-import photo from '../assets/images/mensroster.jpg';
+import Roster from '../../components/Roster';
+import photo from '../../assets/images/mensroster.jpg';
 
-import '../css/rosters.scss';
+import '../../css/rosters.scss';
 
 const RosterPage = () => (
   <div className="container">

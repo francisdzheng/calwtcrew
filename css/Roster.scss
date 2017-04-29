@@ -1,15 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Sans|Palanquin+Dark');
 .roster-container {
-  // display: block;
-  // width: 1000px;
-  // height: auto;
-  // margin: 0 auto;
-  font-family: 'PT Sans', sans-serif;
   text-align: center;
 
   header {
     font-size: 28px;
-    font-family: 'Palanquin Dark', sans-serif;
     color: #22333B;
     text-transform: uppercase;
     text-align: center;
@@ -28,15 +21,16 @@
         padding-bottom: 10px;
       }
 
-      width: 162px;
+      width: 142px;
       text-align: left;
+      font-size: 0.85em;
       float: left;
       padding: 15px;
       text-transform: capitalize;
 
       &:first-of-type {
         border-right: 2px solid black;
-        width: 192px;
+        width: 190px;
       }
 
       &:nth-child(3) {
@@ -48,7 +42,7 @@
       }
 
       &:nth-child(5) {
-        width: 280px;
+        width: 300px;
       }
 
       .roster__item {
